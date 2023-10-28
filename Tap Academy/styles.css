@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f1c40f; /* Change color on hover */
+}
+
+.content {
+    padding: 0px;
+    display: none;
+    background-color: darkslategray;
+}
+
+/* Target specific sections based on URL hash */
+:target {
+    display: block;
+}
+.content img,
+.content h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    width: 200px; /* Set the width of the profile picture to your desired size */
+    border-radius: 300%; /* Make the image circular */
+    margin-bottom: 20px; /* Add some space between image and name */
+}
+.content h1{
+    text-align: right;
+}
+
+

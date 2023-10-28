@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.homepage {
+    background-color: #3498db; /* Set background color */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff; /* Text color */
+}
+
+img {
+    width: 150px; /* Set the width of the profile picture */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Add some space between image and name */
+}
